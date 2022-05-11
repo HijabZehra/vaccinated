@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sf-ui;
+    src: url(sf-ui-display-thin-58646e9b26e8b.woff);
+}
+
+@font-face {
+    font-family: sf-ui-bold;
+    src: url(sf-ui-display-bold-58646a511e3d9.woff);
+}
+
+:root {
+    --blue:#458FF6;
+}
+
+span {
+    color: var(--blue);
+}
+
+.container {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.div1-header {
+    width: 50%;
+    align-self: center;
+}
+
+.div2-header {
+    width: 50%;
+    align-self: center;
+    text-align: right;
+}
+
+.div2-header li {
+    display: inline-block;
+    padding: 0 15px;
+    font-family: sf-ui;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.main-sec-1 {
+    padding: 20px 0;
+}
+
+.div1-sec1 {
+    width: 50%;
+    align-self: center;
+}
+
+.div1-sec1 div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div1-sec1 h1 {
+    font-family: sf-ui-bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.div1-sec1 p {
+    font-family: sf-ui;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.div1-sec1 button {
+    background-color: var(--blue);
+    color: white;
+    font-family: sf-ui-bold;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.div2-sec1 {
+    width: 50%;
+}
+
+.div2-sec1 img {
+    width: 100%;
+}
+
+.main-sec-2 {
+    background-image: url(sec-bg.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-attachment: scroll;
+    height: 600px;
+    padding: 40px 0;
+}
+
+.heading {
+    width: 40%;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: sf-ui-bold;
+}
+
+.div1-sec2 {
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+.div1-sec2:hover {
+    box-shadow: 0 0 8px 2px rgb(175, 174, 174);
+}
+
+.div2-sec2 {
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+.div2-sec2:hover {
+    box-shadow: 0 0 8px 2px rgb(175, 174, 174);
+}
+
+.div3-sec2 {
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+.div3-sec2:hover {
+    box-shadow: 0 0 8px 2px rgb(175, 174, 174);
+}
+
+.div4-sec2 {
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 10px;
+}
+
+.div4-sec2:hover {
+    box-shadow: 0 0 8px 2px rgb(175, 174, 174);
+}
+
+.container2 h3 {
+    font-family: sf-ui-bold;
+    margin: 10px 0;
+}
+
+.container2 p {
+    font-family: sf-ui;
+    margin: 10px 0;
+}
+
+.main-sec-3 {
+    padding: 40px 0;
+}
+
+.div1-sec3 {
+    width: 50%;
+    align-self: center;
+}
+
+.div1-sec3 div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div1-sec3 h1 {
+    font-family: sf-ui-bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.div1-sec3 p {
+    font-family: sf-ui;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.div1-sec3 button {
+    background-color: white;
+    color: var(--blue);
+    font-family: sf-ui-bold;
+    font-weight: bold;
+    border: 1px solid var(--blue) ;
+    border-radius: 30px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.div1-sec3 button:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.div2-sec3 {
+    width: 50%;
+}
+
+.div2-sec3 img {
+    width: 100%;
+}
+
+.main-sec-4 {
+    padding: 40px 0;
+}
+
+.div1-sec4 {
+    width: 50%;
+}
+
+.div1-sec4 img {
+    width: 100%;
+}
+
+.div2-sec4 {
+    width: 50%;
+    align-self: center;
+    text-align: right;
+}
+
+.div2-sec4 div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div2-sec4 h1 {
+    font-family: sf-ui-bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.div2-sec4 p {
+    font-family: sf-ui;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.div2-sec4 button {
+    background-color: white;
+    color: var(--blue);
+    font-family: sf-ui-bold;
+    font-weight: bold;
+    border: 1px solid var(--blue) ;
+    border-radius: 30px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.div2-sec4 button:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.main-sec-5 {
+    padding: 40px 0;
+    background-image: url(sec-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right;
+    height: 650px;
+}
+
+.div1-sec5 {
+    width: 50%;
+    align-self: center;
+}
+
+.div1-sec5 div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div1-sec5 h1 {
+    font-family: sf-ui-bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.div1-sec5 p {
+    font-family: sf-ui;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.div1-sec5 button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.div2-sec5 {
+    width: 50%;
+}
+
+.div2-sec5 img {
+    width: 100%;
+}
+
+.main-sec-6 {
+    padding: 40px 0;
+}
+
+.article {
+    border-radius: 10%;
+    width: 100%;
+}
+
+.sec6 h2 {
+    font-family: sf-ui-bold;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.sec6 p {
+    font-family: sf-ui;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.div1-sec6 {
+    width: 23%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.div2-sec6 {
+    width: 23%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.div3-sec6 {
+    width: 23%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.div-sec6:hover {
+    box-shadow: 0 0 4px 2px rgb(214, 214, 214);
+}
+
+.button {
+    width: 20%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.button button {
+    background-color: white;
+    color: var(--blue);
+    font-family: sf-ui-bold;
+    font-weight: bold;
+    border: 1px solid var(--blue) ;
+    border-radius: 30px;
+    padding: 15px 45px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.main-sec-6 {
+    padding: 60px 0;
+}
+
+.div1-sec7 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div1-sec7 h1 {
+    font-family: sf-ui-bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.div1-sec7 p {
+    font-family: sf-ui;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.div1-sec7 button {
+    background-color: var(--blue);
+    color: white;
+    font-family: sf-ui-bold;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.element-1 {
+    text-align: right;
+    width: 100%;
+}
+
+.element-1 img {
+    width: 65px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #67C3F3, #5A98F2);
+    color: white;
+}
+
+.div1-f li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.inside-div-f {
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.footer li {
+    list-style-position: inside;
+    list-style-type: none;
+    font-family: sf-ui;
+    padding: 10px 0;
+}
+
+.footer h4 {
+    font-family: sf-ui-bold;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.div2-f {
+    width: 35%;
+    margin: 0 auto;
+    font-family: sf-ui;
+}
+
+.div2-f img {
+    margin: 15px 0;
+}
+
+.div2-f p {
+    margin: 15px 0;
+}
+
+.div3-f {
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+.div4-f {
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+.div5-f {
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+.element {
+    width: 100%;
+}
+
+.element img {
+    width: 65px;
+}
+
+.h1-1::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.h1-2::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 150px;
+}
+
+.h1-3::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 150px;
+    margin-left: 456px;
+}
+
+.h1-4::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 150px;
+}
+
+.h1-5::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 0 auto; 
+}
+
+.h1-6::after {
+    content: "";
+    background-image: url(after.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    display: block;
+    height: 5px;
+    width: 90px;
+    margin: 0 auto; 
+}
